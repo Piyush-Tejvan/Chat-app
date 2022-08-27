@@ -1,0 +1,179 @@
+.App{
+}
+
+
+p {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 500;
+font-size: 20px;
+margin-left: 8px;
+margin-right: 0px;
+overflow-wrap: break-word;
+margin-top: 2px;
+}
+
+/* .msg {
+display: flex;
+flex-direction: column;
+padding: 15px 15px 0 10px;
+margin-right: 20px;
+margin-bottom: 15px;
+border-radius: 3000px;
+box-shadow: 0 0 10px rgb(164, 164, 164);
+align-items: center;
+} */
+
+.media{
+  padding-top: 5px;
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 250px;
+  max-height: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.sent {
+  display: flex;
+  background-color: #1e8b42;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgb(164, 164, 164);
+  align-items: center;
+  color: white;
+  text-align: end;
+  float: right;
+  border-radius: 10px;
+
+}
+
+.received {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgb(164, 164, 164);
+  align-items: center;
+  color: black;
+  padding-top: 5px;
+  text-align: end;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  background-color: #FAFAFA;
+  float: left;
+}
+
+.sendMsg {
+position: fixed;
+display: flex;
+width: 100%;
+bottom: 0;
+z-index: 1;
+border-top: 1px solid lightgray;
+margin-left: -5px;
+padding: 10px;
+padding-bottom: 30px;
+background-color: #fafafa;
+}
+
+.msgs {
+margin: 110px 0;
+display: flex;
+flex-direction: column;
+}
+
+.time{
+  font-size: 10px;
+  float: right;
+}
+
+.attach{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.textmsg{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  
+}
+
+.preview{
+  min-width: 40%;
+  min-height: 40%;
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.previewall{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.pre-btn{
+  margin: 10px;
+}
+
+.text{
+  font-size: 16px;
+  text-align: left;
+  overflow-wrap: break-word;
+  max-width: 250px;
+  overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
+}
+
+.curtime{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 300px;
+  margin-right: 5px;
+}
+
+.curtext{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+@media (max-width: 775px) {
+    p {
+        font-size: 20px;
+    }
+    .sent {
+        padding: 10px 10px 0 10px;
+    }
+    .received {
+        padding: 10px 10px 0 10px;
+    }
+    img {
+        height: 35px;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        font-size: 15px;
+    }
+    .sent {
+        padding: 7px 7px 0 7px;
+    }
+    .received {
+        padding: 7px 7px 0 7px;
+    }
+    img {
+        height: 30px;
+        margin-top: -7px;
+    }
+  }
+  
+  
+  
